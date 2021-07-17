@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import "../App.css";
 function Jsondata() {
   useEffect(() => {
     fetchItems();
@@ -14,7 +14,7 @@ function Jsondata() {
   };
 
   return (
-    <section>
+    <section className="jsondata">
       {items.map((item) => (
         <div>
           <p> {item.name}</p>

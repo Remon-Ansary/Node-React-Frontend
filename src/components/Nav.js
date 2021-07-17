@@ -13,6 +13,7 @@ function Nav() {
                     <Link to='/' className="nav-item nav-link active">Home</Link>
                     <Link to='/tweets' className="nav-item nav-link">Tweets</Link>
                     <Link to='/jsondata' className="nav-item nav-link">Jsondata</Link>
+                    <Link to='/searchjson' className="nav-item nav-link">Searchjson</Link>
                    
                 </div>
             </div>
